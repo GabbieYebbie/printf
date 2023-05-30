@@ -1,0 +1,34 @@
+#include "main.h"
+
+/**
+ * get_gabs - _printf discovers and activates gabs
+ * a flag modifier in the format string
+ * @s: the flag specifier-holding character
+ * @g: pointer to the struct gabs in which we turn the flags on
+ *
+ * Return: 0 or 1
+ * Authors: Gabriella and Gabeebah
+ */
+
+int get_gabs(char s, gabs_t *f)
+{
+	int i = 0;
+
+	switch (s)
+	{
+		case '+':
+			g->plus = 1;
+			i = 1;
+			break;
+		case ' ':
+			g->space = 1;
+			i = 1;
+			break;
+		case '#':
+			g->hash = 1;
+			i = 1;
+			break;
+	}
+
+	return (i);
+}
