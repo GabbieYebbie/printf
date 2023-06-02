@@ -1,7 +1,8 @@
 #include <unistd.h>
 
-//_putchar - function to return character to standard output
-int _putchar(char g)
+// _putchar - function to return character to stdout
+int _putchar(char c)
 {
-	return (write(1, &g, 1));
+	return (write(1, &c, 1));
 }
+

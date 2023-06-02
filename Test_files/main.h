@@ -2,7 +2,7 @@
 #define MAIN_H
 
 int _printf(const char *format, ...);
-int _putchar(char g);
+int _putchar(char c);
 int print_string(char *);
 int print_decimal(int value);
 long long int power(int base, int x);
