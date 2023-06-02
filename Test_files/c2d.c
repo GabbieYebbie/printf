@@ -5,7 +5,7 @@
  * Project team : Gabriella & Gabeebah
  * Return: Decimal
  */
-long long convertToDecimal(int Number, int base)
+long convertToDecimal(int Number, int base)
 {
     int decimalNumber = 0, i = 0;
 
